@@ -81,7 +81,7 @@ const App: React.FC = () => {
                      <div 
                         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
                         style={{ 
-                            backgroundImage: "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2000&auto=format&fit=crop')",
+                            backgroundImage: "img3.jpg",
                             transform: `translateY(${scrollY * 0.5}px) scale(1.05)`,
                             filter: 'blur(4px)',
                             willChange: 'transform, filter'
