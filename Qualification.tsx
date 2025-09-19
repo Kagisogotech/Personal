@@ -8,12 +8,12 @@ type QualificationItem = {
 };
 
 const education: QualificationItem[] = [
-    { title: 'NQF Level 5 in Software Development', source: 'Jeppe College', years: '2023 - 2025' },
     { title: 'National Senior Certificate (IT & Science)', source: 'Lyttelton Manor High School', years: '2018 - 2022' },
+    { title: 'NQF Level 5 in Software Development', source: 'Jeppe College', years: '2023 - 2025' },
 ];
 
 const work: QualificationItem[] = [
-    { title: 'Data Analyst', source: 'Capaciti', years: '2024 - Present' },
+    { title: 'Data Analyst Candidate', source: 'Capaciti', years: 'Currently' },
 ];
 
 const Timeline: React.FC<{ items: QualificationItem[] }> = ({ items }) => (
@@ -60,8 +60,8 @@ const Qualification: React.FC = () => {
     return (
         <section id="qualification" className="py-20 md:py-32">
              <div className="max-w-screen-xl mx-auto px-8">
-                <h2 className="text-4xl md:text-6xl font-anton uppercase text-center mb-4">Qualification</h2>
-                <p className="text-center text-neutral-400 mb-12">My personal journey</p>
+                <h2 className="text-4xl md:text-6xl font-anton uppercase text-center mb-4">Personal journey</h2>
+                <p className="text-center text-neutral-400 mb-12">Qualifications</p>
 
                 <div className="flex justify-center space-x-8 mb-12">
                     <button onClick={() => setActiveTab('education')} className={`flex items-center space-x-2 text-lg font-medium transition-colors duration-300 ${activeTab === 'education' ? 'text-emerald-400' : 'text-neutral-400 hover:text-white'}`}>
