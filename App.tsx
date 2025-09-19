@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
+import Qualification from './Qualification';
 
 // --- INTERFACES ---
 interface Certificate {
@@ -200,6 +201,8 @@ const App: React.FC = () => {
                     </div>
                 </section>
                 
+                <Qualification />
+
                 {/* --- RESUME SECTION --- */}
                 <section id="resume" className="py-20 md:py-32 bg-neutral-900/50">
                     <div className="max-w-screen-md mx-auto px-8 text-center">
@@ -326,6 +329,7 @@ const Header: React.FC = () => {
     const navItems = [
         { name: "About", href: "/#about" },
         { name: "Skills", href: "/#skills" },
+        { name: "Qualification", href: "/#qualification" },
         { name: "Resume", href: "/#resume" },
         { name: "Certificates", href: "/#certificates" },
         { name: "Contact", href: "/#contact" },
