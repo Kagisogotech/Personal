@@ -81,7 +81,7 @@ const App: React.FC = () => {
                      <div 
                         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
                         style={{ 
-                            backgroundImage: `url(${img3})`,
+                            backgroundImage: `url(img3.jpg)`,
                             transform: `translateY(${scrollY * 0.5}px) scale(1.05)`,
                             filter: 'blur(4px)',
                             willChange: 'transform, filter'
